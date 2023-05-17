@@ -1,0 +1,3 @@
+[submodule "third_parties/opentelemetry-collector"]
+	path = third_parties/opentelemetry-collector
+	url = https://github.com/yuanqijing/opentelemetry-collector.git

@@ -1,0 +1,26 @@
+go 1.20
+
+use (
+	.
+	./third_parties/opentelemetry-collector
+	./third_parties/opentelemetry-collector/cmd/builder
+	./third_parties/opentelemetry-collector/cmd/otelcorecol
+	./third_parties/opentelemetry-collector/component
+	./third_parties/opentelemetry-collector/confmap
+	./third_parties/opentelemetry-collector/connector/forwardconnector
+	./third_parties/opentelemetry-collector/consumer
+	./third_parties/opentelemetry-collector/exporter
+	./third_parties/opentelemetry-collector/exporter/loggingexporter
+	./third_parties/opentelemetry-collector/exporter/otlpexporter
+	./third_parties/opentelemetry-collector/exporter/otlphttpexporter
+	./third_parties/opentelemetry-collector/extension/ballastextension
+	./third_parties/opentelemetry-collector/extension/zpagesextension
+	./third_parties/opentelemetry-collector/featuregate
+	./third_parties/opentelemetry-collector/internal/tools
+	./third_parties/opentelemetry-collector/pdata
+	./third_parties/opentelemetry-collector/processor/batchprocessor
+	./third_parties/opentelemetry-collector/processor/memorylimiterprocessor
+	./third_parties/opentelemetry-collector/receiver
+	./third_parties/opentelemetry-collector/receiver/otlpreceiver
+	./third_parties/opentelemetry-collector/semconv
+)
