@@ -11,6 +11,7 @@ require (
 	go.opentelemetry.io/collector/receiver v0.77.0
 	google.golang.org/grpc v1.54.0
 	k8s.io/klog v1.0.0
+	k8s.io/klog/v2 v2.100.1
 	sigs.k8s.io/controller-runtime v0.14.6
 )
 
@@ -25,6 +26,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/prometheus/prometheus v0.44.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/collector/confmap v0.77.0 // indirect
 	go.opentelemetry.io/collector/exporter v0.77.0 // indirect
@@ -38,7 +40,6 @@ require (
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
-	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
+	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
-	k8s.io/klog/v2 v2.100.1 // indirect
 )
